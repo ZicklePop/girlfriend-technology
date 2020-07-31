@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page - index should render 1`] = `
+<main
+  className=" sans-serif mw8 center"
+>
+  <header
+    className="jsx-3038145414 sans-serif fw3 mb3 h2"
+  >
+    <nav
+      className="jsx-3038145414 pa3 fixed db w-100 left-0 flex justify-between bg-white-10"
+    >
+      <div
+        className="jsx-3038145414 flex items-center"
+      >
+        <a
+          className="link dim f6 f5-ns dib mr3 underline i no-underline"
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          title="girlfriend technology"
+        >
+          💖 girlfriend technology
+        </a>
+      </div>
+      <div
+        className="jsx-3038145414 flex-grow flex items-center"
+      >
+        <a
+          className="link dim f6 f5-ns dib mr3 underline "
+          href="/projects"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          title="projects"
+        >
+          projects
+        </a>
+        <a
+          className="link dim f6 f5-ns dib mr3 underline "
+          href="/labs"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          title="labs"
+        >
+          labs
+        </a>
+      </div>
+    </nav>
+  </header>
+  <div
+    className="jsx-2569768335 fw9 i f-subheadline ph3 pt6 mw6 center"
+  >
+    👭 apps for us 👩‍❤️‍💋‍👩
+  </div>
+</main>
+`;

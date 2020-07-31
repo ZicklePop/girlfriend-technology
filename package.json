@@ -1,0 +1,38 @@
+{
+  "name": "girlfriend.technology",
+  "version": "0.0.1",
+  "main": "server.js",
+  "license": "Unlicense",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "next": "next",
+    "test": "jest",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "next": "^9.3.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.13.0",
+    "standard": "^14.3.3"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "standard": {
+    "env": "jest"
+  }
+}
