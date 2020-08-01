@@ -4,7 +4,7 @@ import Logo from '../public/static/mask-icon.svg'
 
 const cx = {
   header: 'fw3 mb3 h2',
-  nav: 'pa3 fixed db w-100 left-0 flex justify-between',
+  nav: 'pa3 fixed db w-100 left-0 flex justify-between bg-white-50',
   name: 'i no-underline underline-hover db',
   left: 'flex items-center',
   right: 'flex-grow flex items-center',

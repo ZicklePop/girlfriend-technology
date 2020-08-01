@@ -2,13 +2,13 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-2036497186 sans-serif mw8 center"
+  className="jsx-100476219 sans-serif mw8 center"
 >
   <header
     className="jsx-3038145414 fw3 mb3 h2"
   >
     <nav
-      className="jsx-3038145414 pa3 fixed db w-100 left-0 flex justify-between"
+      className="jsx-3038145414 pa3 fixed db w-100 left-0 flex justify-between bg-white-50"
     >
       <div
         className="jsx-3038145414 flex items-center"
@@ -26,13 +26,15 @@ exports[`page - index should render 1`] = `
             fillRule="evenodd"
             strokeLinecap="round"
             strokeLinejoin="round"
-            viewBox="0 0 32 32"
+            viewBox="0 0 16 16"
             width="1.5rem"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M8.472 3.35c-4.082 0-7.441 3.358-7.441 7.44 0 8.166 6.046 14.884 13.395 14.884a12 12 0 0 0 3.668-.575M4.007 10.791c0 6.532 4.703 11.906 10.419 11.906m5.953-16.371c2.45 0 4.465 2.015 4.465 4.465m2.153 5.11c.532-1.597.824-3.319.824-5.11 0-4.083-3.36-7.442-7.442-7.442-3.266 0-5.953 2.688-5.953 5.953 0-3.265-2.688-5.953-5.954-5.953m13.567 7.442c0 4.899-4.03 8.93-8.93 8.93 4.9 0 8.93 4.03 8.93 8.93 0-4.9 4.032-8.93 8.93-8.93-4.898 0-8.93-4.031-8.93-8.93"
+              d="M4.268 1.729A3.706 3.706 0 0 0 .58 5.418c0 4.047 2.997 7.378 6.64 7.378.629 0 1.239-.1 1.818-.285M2.055 5.418c0 3.238 2.331 5.902 5.165 5.902m2.951-8.116c1.214 0 2.213 1 2.213 2.214m1.067 2.533a8.002 8.002 0 0 0 .408-2.533 3.706 3.706 0 0 0-3.688-3.689A2.965 2.965 0 0 0 7.22 4.68a2.966 2.966 0 0 0-2.952-2.951m6.726 3.689c0 2.428-1.998 4.426-4.427 4.426 2.429 0 4.427 1.999 4.427 4.427 0-2.428 1.998-4.427 4.426-4.427-2.428 0-4.426-1.998-4.426-4.426"
               fill="none"
+              stroke="#000"
+              strokeWidth=".5"
             />
           </svg>
           girlfriend technology

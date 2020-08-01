@@ -39,9 +39,6 @@ const Layout = ({ title, description, children, className, light, dark }) => {
           a {
             color: ${dark};
           }
-          nav {
-            background-image: linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.15));
-          }
           .stroke-current path {
             stroke: currentColor;
           }
