@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 
 const cx = {
-  a: 'link dim f6 f5-ns dib mr3 underline'
+  a: 'link f6 f5-ns dib mr3 underline'
 }
 
 const NavItem = ({ as, children, className, href, title, rel }) => (

@@ -3,10 +3,10 @@ import Head from 'next/head'
 import PropTypes from 'prop-types'
 
 const cx = {
-  main: ''
+  main: 'sans-serif'
 }
 
-const Layout = ({ title, description, children, className }) => {
+const Layout = ({ title, description, children, className, light, dark }) => {
   return (
     <main className={`${cx.main} ${className}`}>
       <Head>
@@ -30,6 +30,20 @@ const Layout = ({ title, description, children, className }) => {
         <link rel='mask-icon' sizes='any' href='/static/mask-icon.svg' color='#00d6ff' />
       </Head>
       {children}
+      <style jsx global>
+        {`
+          body {
+            color: ${dark};
+            background: ${light};
+          }
+          a {
+            color: ${dark};
+          }
+          nav {
+            background-image: linear-gradient(0deg, rgba(255,255,255,0), rgba(255,255,255,0.15));
+          }
+        `}
+      </style>
     </main>
   )
 }
@@ -38,13 +52,17 @@ Layout.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   children: PropTypes.node,
-  className: PropTypes.string
+  className: PropTypes.string,
+  light: PropTypes.string,
+  dark: PropTypes.string
 }
 
 Layout.defaultProps = {
   title: 'girlfriend technology',
   description: '',
-  className: ''
+  className: '',
+  light: '#ffffff',
+  dark: '#000000'
 }
 
 export default Layout

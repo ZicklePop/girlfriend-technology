@@ -2,9 +2,9 @@ import React from 'react'
 import NavItem from './nav-item'
 
 const cx = {
-  header: 'sans-serif fw3 mb3 h2',
-  nav: 'pa3 fixed db w-100 left-0 flex justify-between bg-white-10',
-  name: 'i no-underline',
+  header: 'fw3 mb3 h2',
+  nav: 'pa3 fixed db w-100 left-0 flex justify-between',
+  name: 'i no-underline underline-hover',
   left: 'flex items-center',
   right: 'flex-grow flex items-center'
 }
