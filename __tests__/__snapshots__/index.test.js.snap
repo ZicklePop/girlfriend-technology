@@ -2,7 +2,7 @@
 
 exports[`page - index should render 1`] = `
 <main
-  className="jsx-100476219 sans-serif mw8 center"
+  className="jsx-2656219300 sans-serif mw8 center"
 >
   <header
     className="jsx-3038145414 fw3 mb3 h2"
@@ -65,12 +65,12 @@ exports[`page - index should render 1`] = `
     </nav>
   </header>
   <div
-    className="fw9 i f-subheadline ph3 pt6 mw6 center lh-title"
+    className="fw9 i f-subheadline ph3 pv6 mw6 center lh-title hyphens-auto"
   >
-    👭 apps for us 👩‍❤️‍💋‍👩
+    👭 girlfriend technology 👩‍❤️‍💋‍👩
   </div>
   <footer
-    className="left-0 right-0 absolute w-100 fw3 pv5 tc"
+    className="left-0 right-0 absolute w-100 fw3 pv5 tc i"
   >
     <p
       className="i"
@@ -79,18 +79,29 @@ exports[`page - index should render 1`] = `
       2020
     </p>
     <a
-      className="mh2"
-      href="/"
-      title="terms"
+      className="mh2 no-underline underline-hover"
+      href="https://melaniekat.com"
+      title="with love from melanie kat"
     >
-      terms
-    </a>
-    <a
-      className="mh2"
-      href="/"
-      title="privacy"
-    >
-      privacy
+      with
+      <svg
+        className="v-mid dib mh1 stroke-current"
+        clipRule="evenodd"
+        fillRule="evenodd"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        viewBox="0 0 16 16"
+        width="1.5rem"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M4.268 1.729A3.706 3.706 0 0 0 .58 5.418c0 4.047 2.997 7.378 6.64 7.378.629 0 1.239-.1 1.818-.285M2.055 5.418c0 3.238 2.331 5.902 5.165 5.902m2.951-8.116c1.214 0 2.213 1 2.213 2.214m1.067 2.533a8.002 8.002 0 0 0 .408-2.533 3.706 3.706 0 0 0-3.688-3.689A2.965 2.965 0 0 0 7.22 4.68a2.966 2.966 0 0 0-2.952-2.951m6.726 3.689c0 2.428-1.998 4.426-4.427 4.426 2.429 0 4.427 1.999 4.427 4.427 0-2.428 1.998-4.427 4.426-4.427-2.428 0-4.426-1.998-4.426-4.426"
+          fill="none"
+          stroke="#000"
+          strokeWidth=".5"
+        />
+      </svg>
+      from melanie kat
     </a>
   </footer>
 </main>

@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 
 const cx = {
   main: 'mw8 center',
-  content: 'fw9 i f-subheadline ph3 pt6 mw6 center lh-title'
+  content: 'fw9 i f-subheadline ph3 pv6 mw6 center lh-title hyphens-auto'
 }
 
 const theme = {
@@ -21,7 +21,7 @@ const Projects = () => (
   >
     <Nav />
     <div className={cx.content}>
-      {'tktk 👩‍💻 wip'}
+      {'👩‍💻 soon'}
     </div>
     <Footer />
   </Layout>

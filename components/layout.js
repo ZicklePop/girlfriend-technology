@@ -42,6 +42,9 @@ const Layout = ({ title, description, children, className, light, dark }) => {
           .stroke-current path {
             stroke: currentColor;
           }
+          .hyphens-auto {
+            hyphens: auto;
+          }
         `}
       </style>
     </main>

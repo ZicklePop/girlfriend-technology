@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 
 const cx = {
   main: 'mw8 center',
-  content: 'fw9 i f-subheadline ph3 pt6 mw6 center lh-title'
+  content: 'fw9 i f-subheadline ph3 pv6 mw6 center lh-title hyphens-auto'
 }
 
 const theme = {
@@ -17,7 +17,7 @@ const Index = () => (
   <Layout className={cx.main} {...theme}>
     <Nav />
     <div className={cx.content}>
-      {'👭 apps for us 👩‍❤️‍💋‍👩'}
+      {'👭 girlfriend technology 👩‍❤️‍💋‍👩'}
     </div>
     <Footer />
   </Layout>
