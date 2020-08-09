@@ -2,10 +2,12 @@ import React from 'react'
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Footer from '../components/footer'
+import BigContent from '../components/big-content'
+import BoxedText from '../components/boxed-text'
 
 const cx = {
   main: 'mw8 center',
-  content: 'fw9 i f-subheadline ph3 pv6 mw6 center lh-title hyphens-auto'
+  content: 'fw9 i f1 ph3 pv6 mw6 tc center lh-title hyphens-auto'
 }
 
 const theme = {
@@ -20,9 +22,11 @@ const Labs = () => (
     {...theme}
   >
     <Nav />
-    <div className={cx.content}>
-      {'soon 👩‍🔬'}
-    </div>
+    <BigContent className={cx.content}>
+      <BoxedText {...theme}>
+        {'in development'}
+      </BoxedText>
+    </BigContent>
     <Footer />
   </Layout>
 )
