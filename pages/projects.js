@@ -25,13 +25,13 @@ const Projects = () => (
     <Nav />
     <BigContent className={cx.content}>
       <span className={cx.boxes}>
-       <BoxedText {...theme}>
-         {'> projects'}
-       </BoxedText>
-       <BoxedText {...theme}>
-         {'in development'}
-       </BoxedText>
-     </span>
+        <BoxedText {...theme}>
+          {'> projects'}
+        </BoxedText>
+        <BoxedText {...theme}>
+          {'in development'}
+        </BoxedText>
+      </span>
     </BigContent>
     <Footer />
   </Layout>
