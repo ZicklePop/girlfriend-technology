@@ -62,7 +62,7 @@ Layout.propTypes = {
 
 Layout.defaultProps = {
   title: 'girlfriend technology',
-  description: '',
+  description: 'apps for us',
   className: '',
   light: '#ffffff',
   dark: '#000000'
